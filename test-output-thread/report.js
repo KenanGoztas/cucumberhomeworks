@@ -1,4 +1,4 @@
 $(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([{"id":"e79e8190-befc-4924-8e99-2fd326576520","feature":"Kullanici ebay sitesine gider ve arama kisminda commputer kelimesini doğrular","scenario":"Kullanici ebay sitesine gidip computer kelimesini arayabilmelidir","start":1677525710451,"group":1,"content":"","tags":"@search,","end":1677525773691,"className":"passed"}]);
+CucumberHTML.timelineItems.pushArray([{"id":"9c71417a-96b3-4b3f-b7e7-1306424e826f","feature":"Kullanici arama yapabilmelidir","scenario":"Kullanici arama kutusunda arama yapabilmelidir ve sonucunu gorebilmelidir","start":1677533472793,"group":1,"content":"","tags":"@teleriksearch,","end":1677533474241,"className":"failed"},{"id":"5f24659b-c061-482d-b496-b9349d2b18af","feature":"Kullanici arama yapabilmelidir","scenario":"Kullanici arama kutusunda arama yapabilmelidir ve sonucunu gorebilmelidir","start":1677533460194,"group":1,"content":"","tags":"@teleriksearch,","end":1677533472724,"className":"failed"}]);
 CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[#1,main,5,main]"}]);
 });

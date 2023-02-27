@@ -1,17 +1,16 @@
 Feature: Kullanici arama yapabilmelidir
 
   Background
-    Given Kullanıcı https://www.telerik.com/support/demos sayfasina gider
+    Given Kullanici verilen internet sayfasina gider
 
+  @teleriksearch
   Scenario Outline:Kullanici arama kutusunda arama yapabilmelidir ve sonucunu gorebilmelidir
-    Given Kullanici ana sayfaya yonlenir Cookie için gelen seçeneklerden Accept and Close’a tıklar
-    And Kullanici ana sayfaya yonlenir üst menü bar dan arama simgesine tıklar
-    And Kullanici search box kutusuna "<aranacak_kelime>" yazar.
-    And Kullanici arama butonuna tıklar.
-    Then Arama sonucu çıkan ilk seçeneğin ilgili kelimeleri barındırdığı Assert edilir.
-    And Kullanici sayfayı kapatır.
+    When Kullanici ana sayfaya yonlenir Cookie icin gelen seceneklerden Accept and Close’a tiklar
+    And Kullanici ana sayfaya yonlenir ust menu bar dan arama simgesine tiklar
+    And Kullanici search box kutusuna <aranacak_kelime> yazar
+    And Kullanici arama butonuna tiklar.
+    Then Arama sonucu çıkan ilk seçeneigin <aranacak_kelime> barindirdigi Assert edilir
     Examples:
       | aranacak_kelime |
-      | keyword test    |
-
-      | data testing    |
+      | "keyword test"  |
+      | "data testing"  |
