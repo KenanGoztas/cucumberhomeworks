@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
 
             features = "src/test/resources",
             glue = "stepdefinitions",
-            tags = "@negative", // Keyword Driven Testing
+            tags = "@search", // Keyword Driven Testing
             dryRun = false
 
 
