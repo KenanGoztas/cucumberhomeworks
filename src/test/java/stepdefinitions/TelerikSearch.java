@@ -22,8 +22,8 @@ public class TelerikSearch {
     public void kullaniciVerilenInternetSayfasinaGider() {
         driver.get("https://www.telerik.com/support/demos");
     }
-    @When("Kullanici ana sayfaya yonlenir Cookie icin gelen seceneklerden Accept and Close’a tiklar")
-    public void kullanici_ana_sayfaya_yonlenir_cookie_icin_gelen_seceneklerden_accept_and_close_a_tiklar() {
+    @When("Kullanici ana sayfaya yonlenir Cookie icin gelen seceneklerden Accept and Closea tiklar")
+    public void kullanici_ana_sayfaya_yonlenir_cookie_icin_gelen_seceneklerden_accept_and_closea_tiklar() {
        telerikSearchPage.cookie.submit();
     }
 

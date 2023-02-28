@@ -3,7 +3,7 @@ Feature: Kullanici ebay sitesine gider ve arama kisminda commputer kelimesini do
   Background:
     Given Kullanici ebay sayfasina gider
 
-@search
+@searchebay
   Scenario: Kullanici ebay sitesine gidip computer kelimesini arayabilmelidir
     When Kullanıcı Cookies seçeneğini Accept All seçeneği ile kabul eder.
     And Kullanıcı SearchBox kutusuna “computer” kelimesini yazar.

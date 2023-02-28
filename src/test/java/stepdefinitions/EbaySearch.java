@@ -21,7 +21,7 @@ public class EbaySearch {
 
     @Given("Kullanici ebay sayfasina gider")
     public void kullaniciEbaySayfasinaGider() {
-        driver.get("https://www.ebay.de");
+        driver.get("https://www.telerik.com/support/demos");
     }
 
     @When("Kullanıcı Cookies seçeneğini Accept All seçeneği ile kabul eder.")

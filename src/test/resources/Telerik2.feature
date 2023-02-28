@@ -1,9 +1,10 @@
+
 Feature: Kullanici arama yapabilmelidir
 
   Background
     Given Kullanici verilen internet sayfasina gider
 
-  @searchtelerik
+  @searchtelerik2
   Scenario Outline:Kullanici arama kutusunda arama yapabilmelidir ve sonucunu gorebilmelidir
     When Kullanici ana sayfaya yonlenir Cookie icin gelen seceneklerden Accept and Closea tiklar
     And Kullanici ana sayfaya yonlenir ust menu bar dan arama simgesine tiklar
