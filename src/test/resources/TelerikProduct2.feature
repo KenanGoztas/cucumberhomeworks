@@ -1,5 +1,4 @@
-Feature: Kullanici sepete bir urun ekler ve sepet simgesi uzerinde
-  bu urun sayisindaki artisi gorur
+Feature: Kullanici sepete bir urun ekler ve sepet simgesi uzerinde bu urun sayisindaki artisi gorur
 
   Background:
     Given Kullanici ana sayfaya gider

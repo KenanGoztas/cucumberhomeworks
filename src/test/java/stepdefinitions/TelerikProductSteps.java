@@ -4,14 +4,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.TelerikProductPage;
 import utilities.Driver;
 
 import java.time.Duration;
 
-public class TelerikProductSteps2 {
+public class TelerikProductSteps {
 
     WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10));
     TelerikProductPage telerikProductPage = new TelerikProductPage();
