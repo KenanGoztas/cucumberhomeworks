@@ -24,7 +24,7 @@ public class TelerikSearch {
     }
     @When("Kullanici ana sayfaya yonlenir Cookie icin gelen seceneklerden Accept and Closea tiklar")
     public void kullanici_ana_sayfaya_yonlenir_cookie_icin_gelen_seceneklerden_accept_and_closea_tiklar() {
-       telerikSearchPage.cookie.submit();
+        telerikSearchPage.cookie.submit();
     }
 
     @And("Kullanici ana sayfaya yonlenir ust menu bar dan arama simgesine tiklar")

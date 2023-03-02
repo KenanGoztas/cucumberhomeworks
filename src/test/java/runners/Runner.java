@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
     @CucumberOptions(
 
             plugin ={
-                            "pretty", "html:target/cucumber", "json:target/cucumber.json",
+                            "pretty", "html:target/cucumber", "html:target/cucumber-html-report",
+                    "json:target/cucumber.json",
                             "html:target/cucumber-reports.html",
                             "json:target/cucumber-reports",
                             "rerun:target/failed.txt",
@@ -18,12 +19,12 @@ import org.junit.runner.RunWith;
 
             features = "src/test/resources",
             glue = "stepdefinitions",
-            tags = "@searchebay", // Keyword Driven Testing
+            tags = "@smoke", // Keyword Driven Testing
             dryRun = false
 
 
     )
-    public class runner {
+    public class Runner {
 
     }
 
